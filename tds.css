@@ -59,16 +59,7 @@ input[type="text"] {
     height: 30px;
 
 }
-input[type="checkbox"] {
-    /* margin-right: 40px; */
-    
-   
-    border-radius: 10px;
-    border: none;
-    width: 2vw;
-    height: 23px;
 
-}
 .addtaskbtn {
     color: white;
     background:#4caf50;
@@ -142,6 +133,10 @@ td {
     
 
 }
+input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+}
 @media(max-width:500px){
     
     .working-container{
@@ -170,6 +165,9 @@ td {
     input[type="text"]{
         width: 190px;
     }
+    .show-data{
+        margin-left: 0;
+    }
 
 }
 @media(max-width:300px){
@@ -188,6 +186,9 @@ td {
     }
     .task-bucket{
         font-size: large;
+    }
+    .show-data{
+        margin-left: 0;
     }
 
 }
