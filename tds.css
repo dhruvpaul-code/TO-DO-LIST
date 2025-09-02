@@ -179,7 +179,7 @@ input[type="checkbox"]{
     }
     .input-container{
         width: 242px;
-        margin: 47px 10px;
+        margin: 47px 5px;
     }
     input[type="text"]{
         width: 160px;
@@ -189,6 +189,15 @@ input[type="checkbox"]{
     }
     .show-data{
         margin-left: 0;
+    }
+    .delete{
+        padding: 8px 0;
+    }
+    .incomplete{
+        padding: 8px 0;
+    }
+    table{
+        font-size: 11px;
     }
 
 }
